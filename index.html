@@ -5,8 +5,8 @@
     <meta name="description" content="This is my website that will give you the opportunity to see my current and passed coding projects.">
     <meta name="keywords" content="Html, webpage, sample, structure">
     <meta name="author" content="Angela Nakamoto">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.cc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Welcome Page</title>
   </head>
 
@@ -32,6 +32,41 @@
          <section id="projects"> 
         <h2>Projects</h2>
         <p>This section will highlight current and past projects.</p>
+           <table>
+             <caption> Sample Projects </caption>
+             <colgroup>
+               <col style="background-color: white;">
+               <col>
+               <col style="background-color: black; color: white;">
+             </colgroup>
+
+             <thead>
+               <tr>
+                 <th>Dog breeed</th>
+                 <th>Description</th>
+                 <th style="color-white;">Image</th>
+               </tr>
+             </thead>
+
+             <tbody>
+               <tr>
+                 <td>Labrador Retriever</td>
+                 <td>Friendly and our going labs are great family dogs.</td>
+                 <td style="color-white;"><img scr="placeholder" alt="Labrador Retriever"></td>
+               </tr>
+               <tr>
+                 <td>German Shepherd</td>
+                 <td>German shepherds are loyal companions that excel in working roles</td>
+                 <td style="color-white;"><img src="placeholder" alt="German Shepherd"></td>
+               </tr>
+             </tbody>
+
+             <tfoot>
+               <tr>
+                 <td colospan="3" style="color:white;">All projects are for educational purposes.</td>
+               </tr>
+             </tfoot>
+           </table>
       </section>
 
          <section id="contact"> 
