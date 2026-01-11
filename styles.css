@@ -49,6 +49,29 @@ section, article {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
+section:hover, article:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: inherit;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+table th {
+  background-color: black; 
+  color: white;
+}
+
 footer {
   font-size: 0.85em;
   text-align: center;
