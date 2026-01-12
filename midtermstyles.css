@@ -87,3 +87,37 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+colgroup col:nth-child(1),
+colgroup col:nth-child(3) {
+    background-color: #f9f9f9;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #444;
+    color: #ffffff;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+tfoot td {
+    text-align: center;
+    font-style: italic;
+    border-top: 2px solid #ccc;
+}
