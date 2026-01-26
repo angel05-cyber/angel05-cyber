@@ -12,7 +12,7 @@ This website is my personal website where I showcase my projects, skills, and in
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/angel05-cyber/angel05-cyber/blob/223b23c3def578363eccb00c16bc89d1b23ea94f/Blog.html
+   git clone https://github.com/angel05-cyber/angel05-cyber/blob/49bc4bd2a1527aae1b41d2494372faac64dd9423/index.html
 <!--
 **angel05-cyber/angel05-cyber** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
