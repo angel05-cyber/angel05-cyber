@@ -43,16 +43,18 @@ nav ul li a:hover {
 
 section, article {
   padding: 20px;
-  margin:20px auto;
-  max-width:900px;
+  margin: 20px auto;
+  max-width: 900px;
   background: black;
   border: 2px solid white;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 section:hover, article:hover {
   transform: scale(1.02);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 table {
